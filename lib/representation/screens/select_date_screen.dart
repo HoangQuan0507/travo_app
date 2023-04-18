@@ -56,7 +56,7 @@ class SelectDateScreen extends StatelessWidget{
           ButtonWidget(data:
           'Cancel',
             onTap: () {
-              Navigator.of(context).pop([rangeStartDate, rangeEndDate]);
+              Navigator.of(context).pop();
             },
           ),
         ],

@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.all(kDefaultPadding),
               child: IconButton(
                 icon: Icon(Icons.favorite,
-                color: Colors.red,
+                color: Colors.blue,
                 ),
                 onPressed: () {},
               ),
